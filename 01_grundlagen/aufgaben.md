@@ -6,6 +6,17 @@
 
 ---
 
+## 📖 Vorbereitung
+
+> **Lies zuerst [`theorie.md`](theorie.md) vollständig durch.**
+
+Teste dein Vorwissen mit dem Forms-Quiz:  
+👉 [Forms-Quiz Baustein 01](FORMS_LINK_HIER)
+
+> ⚠️ **Hinweis:** Bearbeite die Aufgaben erst NACH dem Theorieteil.
+
+---
+
 ## Selbsteinschätzung – Vorher
 
 *Bevor du anfängst: Wie sicher fühlst du dich bei diesem Thema?*
