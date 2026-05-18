@@ -210,7 +210,7 @@ _(Öffne erst danach die Unterlagen und vergleiche)_
 
 _Nach dem Bearbeiten: Wie schätzt du dich jetzt ein?_
 
-- [ ] 🟢 Ich verstehe alle Konzepte und kann sie erklären
+- [x] 🟢 Ich verstehe alle Konzepte und kann sie erklären
 - [ ] 🟡 Ich verstehe die meisten Konzepte, habe aber noch Fragen
 - [ ] 🔴 Ich brauche noch mehr Zeit oder Unterstützung
 
