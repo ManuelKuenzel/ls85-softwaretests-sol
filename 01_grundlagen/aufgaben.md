@@ -188,8 +188,19 @@ Haltet das Ergebnis in `01_antworten.md` fest (3–5 Sätze).
 _Schließe alle Unterlagen. Schreibe 5 Minuten lang alles auf, was du zu folgenden Fragen weißt:_
 
 1. Was ist der Unterschied zwischen Error, Defect und Failure?
+
+Antwort: Error = Die falsche Handlung oder der Denkfehler des Entwicklers.
+Defect= Die konkrete Auswirkung des Errors im statischen Quellcode.
+Failure = Das sichtbare Symptom zur Laufzeit. Wenn der fehlerhafte Code tatsächlich ausgeführt wird und das Programm abstürzt, ein falsches Ergebnis ausgibt oder das System einfriert.
+
 2. Warum können wir nie sicher sein, dass Software fehlerfrei ist?
+
+Antwort: Moderne Software besitzt eine schier unendliche Anzahl an Eingabekombinationen, Pfaden, Betriebssystemen und Laufzeitszenarien.
+Es fehlt schlichtweg die Zeit und das Geld, jeden einzelnen Pfad mathematisch zu prüfen.
+
 3. Nenne 3 reale Beispiele, wo fehlende Softwaretests zu Problemen geführt haben.
+
+Antwort: Ariane-5-Absturz, Therac-25-Strahlenunfall, Y2K-Bug.
 
 _(Öffne erst danach die Unterlagen und vergleiche)_
 
