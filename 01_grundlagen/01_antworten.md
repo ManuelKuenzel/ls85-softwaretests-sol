@@ -1,3 +1,23 @@
+## Aufgabe 4
+
+### (a) Zwei konkrete Risiken durch das Weglassen von Tests:
+
+1. **Datenverlust oder Dateninkonsistenz im Produktivsystem:** Ohne Tests könnten fehlerhafte Datenbank-Queries reale Bestandsdaten unwiderruflich löschen oder verfälschen, was zu falschen Lagerbeständen führt.
+2. **Finanzieller Schaden und Imageverlust:** Kritische Ausfälle im Live-Betrieb (z. B. wenn keine Wareneingänge mehr gebucht werden können) führen zu Lieferverzögerungen, Schadensersatzforderungen von Kunden und einem massiven Vertrauensverlust in das Softwareunternehmen.
+
+### (b) Unterscheidung von „Defekt“ und „Versagen“ am Beispiel der Lagerverwaltung:
+
+- **Defekt (Defect / Bug):** Dies ist der statische Fehlerzustand im Quellcode.
+  - _Beispiel:_ Ein Entwickler schreibt in der Programmierlogik für die Bestandsprüfung versehentlich ein `>` (größer als) statt eines `>=` (größer gleich). Dieser Fehler schlummert unbemerkt im Code, solange die entsprechende Zeile nicht ausgeführt wird.
+- **Versagen (Failure / Fehlwirkung):** Dies ist das dynamische Symptom, das zur Laufzeit für den Anwender sichtbar wird.
+  - _Beispiel:_ Ein Lagerarbeiter versucht, das exakt letzte verfügbare Produkt auszubuchen. Das System verweigert den Vorgang fälschlicherweise mit der Fehlermeldung "Artikel nicht auf Lager", obwohl der physische Bestand im Regal vorhanden ist. Das System versagt in seiner Funktion.
+
+### (c) Wirtschaftlichkeit von frühzeitigem Testen ("Rule of Ten"):
+
+Das Grundprinzip „Frühzeitiges Testen spart Zeit und Geld“ lässt sich mathematisch durch die **„Rule of Ten“ (Zehnerregel der Fehlerkosten)** begründen. Diese besagt, dass sich die Kosten für die Behebung eines Fehlers von Entwicklungsphase zu Entwicklungsphase um den **Faktor 10** erhöhen.
+
+Wird ein Logikfehler in der Lagerverwaltung bereits während der Analyse- oder Designphase (z. B. im Konzept) entdeckt, kostet die Behebung fast nichts (nur das Umschreiben eines Satzes). Bleibt der Fehler unentdeckt und fällt erst im Produktivsystem beim Kunden auf (z. B. durch blockierte Lieferketten), sind die Kosten für Fehlersuche, Notfall-Patching, Datenbereinigung und eventuelle Konventionalstrafen um das **Tausendfache** höher. Frühzeitiges Testen minimiert dieses finanzielle Risiko drastisch.
+
 ## Aufgabe 5 – Transfer: Testen bewerten und empfehlen 🔴
 
 a) Argumentation für systematisches Testen
