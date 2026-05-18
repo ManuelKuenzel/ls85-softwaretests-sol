@@ -28,3 +28,7 @@ Wenn die Software in der Praxis die echten Anforderungen der Personalabteilung n
 - Keine Logik besitzt, um Resturlaub korrekt in das neue Jahr zu übertragen.
 
 - Eine Benutzeroberfläche hat, die für die Mitarbeiter der HR-Abteilung so kompliziert ist, dass sie Fehlbedienungen provoziert.
+
+## Tandem-Aufgabe 👥
+
+Ein menschlicher Denkfehler (Error) führt im Code zu einer fehlerhaften Zeile (Bug/Defect), die beim Ausführen der Software zu einem sichtbaren Versagen (Failure) führt.
